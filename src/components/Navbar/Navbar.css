@@ -20,6 +20,8 @@
   display: flex;
   justify-content: center;
   flex: 1;
+  gap: 1rem;
+  margin-left: 4rem;
 }
 
 .navbar__center > p {
