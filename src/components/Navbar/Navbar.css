@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  background-color: transparent;
+  background: none;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  margin: 0.937rem;
+  margin-top: 0.937rem;
+  z-index: 100;
+}
+
+.navbar__logo {
+  height: 1.5rem;
+  width: 6.25rem;
+  margin-top: 0.437rem;
+}
+
+.navbar__center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar__center > p {
+  margin: 0.625rem;
+  text-transform: capitalize;
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: capitalize;
+}
+
+.navbar__right > p {
+  margin: 0.625rem;
+}
