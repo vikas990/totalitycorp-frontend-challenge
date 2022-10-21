@@ -2,7 +2,13 @@
 # totalitycorp-frontend-challenge
 
 ## Description
-    Tried to create Tesla Hompage UI With ReactJs.
+    Tried to create Tesla Hompage UI.
+    
+  ## Tech Stack
+        1. React
+        2. JavaScript
+        3. HTML
+        4. CSS
 
 ## Approach:-
 
