@@ -15,6 +15,14 @@
         - footer will only be visible in last section.
         
 
+## About me
+    1. Hi myself Vikas Kumar, I am currently working as a Team Leader at Bank of America.
+    2. I have Completed my post graduation as MCA from Vellore Institute of Technology, Vellore with a CGPA of 8.92. I have Completed my graduation as BCA from IMED, Pune(Bharti Vidyapeeth university) with a CGPA of 8.70. 
+    3. My major interest are lies in web development with the skills:- Reactjs, Nextjs, Nodejs, MongoDB, SQL,HTML,CSS3, styled-components, Javascript, Material-UI, , React-Query, Bootstrap.
+    4. I have 11 months of experience as a full-stack developer with MyWays. 
+    5. My role was to revamp the website using new technologies and also improve the SEO, and performance of the website. 
+    6. I have been a finalist in SIH,2020(Smart India Hackathon).
+    7. I have also been a part of NSS.
 
 
 
