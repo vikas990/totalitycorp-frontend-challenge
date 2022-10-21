@@ -26,3 +26,25 @@
 .button_secondary > a {
   color: black;
 }
+
+/* ****************** Media Queries ******************** */
+
+@media only screen and (max-width: 52.5rem) {
+  .button {
+    width: 13rem;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) {
+  .button {
+    width: 28rem;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 28.125rem) {
+  .button {
+    width: 15rem;
+    margin: 0 0 1rem 0;
+  }
+}

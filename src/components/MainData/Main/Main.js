@@ -11,6 +11,7 @@ const Main = ({
   rightBtnText,
   twoButton,
   first,
+  footer,
 }) => {
   return (
     <div className="main" style={{ backgroundImage: `url(${img})` }}>
@@ -36,6 +37,18 @@ const Main = ({
             </div>
           )}
         </div>
+        {footer && (
+          <ul className="footer">
+            <li>Tesla &#169; 2022</li>
+            <li>Privacy & Legal</li>
+            <li>Vehicle Recalls</li>
+            <li>Contact</li>
+            <li>Careers</li>
+            <li>News</li>
+            <li>Engage</li>
+            <li>Locations</li>
+          </ul>
+        )}
       </div>
     </div>
   );

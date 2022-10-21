@@ -3,11 +3,12 @@
   background-color: transparent;
   background: none;
   position: fixed;
-  width: 100vw;
+  width: 97vw;
   top: 0;
   margin: 0.937rem;
   margin-top: 0.937rem;
   z-index: 100;
+  animation: fadeIn 1s ease-in;
 }
 
 .navbar__logo {
@@ -27,6 +28,7 @@
 .navbar__center > p {
   margin: 0.625rem;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .navbar__right {
@@ -37,4 +39,87 @@
 
 .navbar__right > p {
   margin: 0.625rem;
+  cursor: pointer;
+}
+
+.mobile__btn {
+  display: none;
+}
+
+.mobileNavbar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 18.75rem;
+  list-style: none;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  transition: transform ease-in 0.2s;
+}
+
+.mobileNavbar > li {
+  padding: 0.937rem 0;
+}
+
+.mobileNavbar li > a {
+  text-decoration: none;
+  color: #22252b;
+  cursor: pointer;
+}
+
+.mobileNavbar__close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobileNavbar__close-img {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ****************** Media Queries ******************** */
+
+@media only screen and (max-width: 73.562rem) {
+  .navbar__center {
+    display: none;
+  }
+
+  .navbar__right {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .mobile__btn {
+    display: block;
+    width: 4.5rem;
+    border-radius: 0.2rem;
+    background-color: rgba(158, 174, 191, 0.3);
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 34.375rem) {
+  .mobileNavbar {
+    width: 9.75rem;
+  }
 }
